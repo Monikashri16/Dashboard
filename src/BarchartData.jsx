@@ -3,7 +3,6 @@ import Barchat from './BarChart.jsx'
 import {useLocation} from 'react-router-dom'
 
 const BarchartData=()=>{
-
     const location = useLocation();
     const data = location.state[0]
     
@@ -27,48 +26,29 @@ const BarchartData=()=>{
            return 0;
         }
       };
-    // const x=(value)=>{
-    //     dataarr.xvalue.push(value)
-    // }
+
     return(
-        
-        <div>
+        <div><h2>DASHBOARD</h2>
             {[data].map((records) => (
-                <div key={records.roll_no}>
+                <div key={records.roll_no} style={{width:300}}>
                     
                     {records.semesters.map((n1) => {
                          const dataarr={
                             xvalue:[],
                             yvalue:[]     
-                         };
-                         return (       
-                        <div key={n1.semester}> 
-                            {n1.Sub_details.map((n2) => (
-                        <div >
-                           {dataarr.yvalue.push(GPAConvertor(n2.grade))}
-                           {dataarr.xvalue.push(n2.course_code)}
-                           
-                        </div>   
-                    )
-                    )
-                    },
-                   
-                   <Barchat data={dataarr}key={n1.semester} className="chart"/>
-                  
-                        </div>)
-                        {console.log(dataarr.xvalue)}
-                        {console.log(dataarr.yvalue)}
+                         }
+                        //  console.log(n1.semester)
+                            n1.Sub_details.map((n2) => {
+                           dataarr.yvalue.push(GPAConvertor(n2.grade))
+                           dataarr.xvalue.push(n2.course_code) 
+                            })
+                        return <div style={{marginBottom:60}}><Barchat data={dataarr} sem={n1.semester} key={n1.semester} className="chart"/></div>
                              
-                })}
-                     
-                </div>   
-            )
-            
-            )
-            }
-             
-        </div>
-        
-    )
+                })}</div>   
+            ))}
+            </div>
+            );
 }
+
+
 export default BarchartData

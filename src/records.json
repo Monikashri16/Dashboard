@@ -5,12 +5,12 @@
         "Sub_details": [ {
             "course_code":"XC5859",
             "grade":"A",
-            "credits":9  
+            "credits":4 
             },
             {
             "course_code":"XC5758",
             "grade":"B",
-            "credits":8
+            "credits":3
 
             } ]          
             },
@@ -19,12 +19,12 @@
     "Sub_details": [ {
         "course_code":"XT5859",
         "grade":"A+",
-        "credits":9  
+        "credits":4  
         },
         {
         "course_code":"XT5758",
         "grade":"C",
-        "credits":8
+        "credits":1
 
         } ]          
 },
@@ -33,12 +33,12 @@
     "Sub_details": [ {
         "course_code":"XT5658",
         "grade":"O",
-        "credits":10  
+        "credits":4  
         },
         {
         "course_code":"XT5657",
         "grade":"RA",
-        "credits":8
+        "credits":0
 
         } ]          
 },
@@ -47,12 +47,12 @@
     "Sub_details": [ {
         "course_code":"XC5658",
         "grade":"A",
-        "credits":9  
+        "credits":4  
         },
         {
         "course_code":"XC5657",
         "grade":"O",
-        "credits":8
+        "credits":4
 
         } ]          
 }]
@@ -65,12 +65,12 @@
         "Sub_details": [ {
             "course_code":"XC5859",
             "grade":"A",
-            "credits":9  
+            "credits":4 
             },
             {
             "course_code":"XC5758",
             "grade":"A",
-            "credits":9
+            "credits":4
 
             } ]          
             },
@@ -79,12 +79,12 @@
     "Sub_details": [ {
         "course_code":"XT5859",
         "grade":"B",
-        "credits":8 
+        "credits":3 
         },
         {
         "course_code":"XT5758",
         "grade":"B",
-        "credits":8
+        "credits":3
 
         } ]          
 },
@@ -93,12 +93,12 @@
     "Sub_details": [ {
         "course_code":"XT5658",
         "grade":"A",
-        "credits":9  
+        "credits":4  
         },
         {
         "course_code":"XT5657",
         "grade":"B",
-        "credits":8
+        "credits":3
 
         } ]          
 },
@@ -107,12 +107,12 @@
     "Sub_details": [ {
         "course_code":"XC5658",
         "grade":"O",
-        "credits":10  
+        "credits":4  
         },
         {
         "course_code":"XC5657",
         "grade":"B",
-        "credits":8
+        "credits":3
 
         } ]          
 }]

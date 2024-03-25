@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import Chart from "chart.js/auto";
 import PropTypes from "prop-types";
 
-const Barchart = ({ data }) => {
+const Barchart = ({ data,sem }) => {
   const chartRef = useRef(null);
   const chartInstance = useRef(null);
 
@@ -18,7 +18,7 @@ const Barchart = ({ data }) => {
         labels: data.xvalue,
         datasets: [
           {
-            label: "Semester",
+            label: `Semester ${sem}`,
             data: data.yvalue,
             backgroundColor: "rgba(255, 255, 255, 0.5)",
             borderColor: "rgba(0,0,0)",

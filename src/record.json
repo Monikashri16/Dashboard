@@ -1,0 +1,28 @@
+[{
+    "roll_no": 2021239015,
+    "semester": 1,
+    "course_code": "XC5859",
+    "grade": "A",
+    "credits": 4
+},
+{
+    "roll_no": 2021239015,
+    "semester": 1,
+    "course_code": "XC5758",
+    "grade": "B",
+    "credits": 3
+},
+{
+    "roll_no": 2021239015,
+    "semester": 1,
+    "course_code": "XT5859",
+    "grade": "A",
+    "credits": 4
+},
+{
+    "roll_no": 2021239015,
+    "semester": 1,
+    "course_code": "XC5758",
+    "grade": "O",
+    "credits": 5
+}]

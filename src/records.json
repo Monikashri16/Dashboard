@@ -1,0 +1,121 @@
+[{
+    "roll_no": 2021239015,
+    "semesters" :[ {
+        "semester":1,
+        "Sub_details": [ {
+            "course_code":"XC5859",
+            "grade":"A",
+            "credits":9  
+            },
+            {
+            "course_code":"XC5758",
+            "grade":"B",
+            "credits":8
+
+            } ]          
+            },
+    {
+    "semester":2,
+    "Sub_details": [ {
+        "course_code":"XT5859",
+        "grade":"A+",
+        "credits":9  
+        },
+        {
+        "course_code":"XT5758",
+        "grade":"C",
+        "credits":8
+
+        } ]          
+},
+{
+    "semester":3,
+    "Sub_details": [ {
+        "course_code":"XT5658",
+        "grade":"O",
+        "credits":10  
+        },
+        {
+        "course_code":"XT5657",
+        "grade":"RA",
+        "credits":8
+
+        } ]          
+},
+{
+    "semester":4,
+    "Sub_details": [ {
+        "course_code":"XC5658",
+        "grade":"A",
+        "credits":9  
+        },
+        {
+        "course_code":"XC5657",
+        "grade":"O",
+        "credits":8
+
+        } ]          
+}]
+
+},  
+{
+    "roll_no": 2021239002,
+        "semesters" :[ {
+        "semester":1,
+        "Sub_details": [ {
+            "course_code":"XC5859",
+            "grade":"A",
+            "credits":9  
+            },
+            {
+            "course_code":"XC5758",
+            "grade":"A",
+            "credits":9
+
+            } ]          
+            },
+    {
+    "semester":2,
+    "Sub_details": [ {
+        "course_code":"XT5859",
+        "grade":"B",
+        "credits":8 
+        },
+        {
+        "course_code":"XT5758",
+        "grade":"B",
+        "credits":8
+
+        } ]          
+},
+{
+    "semester":3,
+    "Sub_details": [ {
+        "course_code":"XT5658",
+        "grade":"A",
+        "credits":9  
+        },
+        {
+        "course_code":"XT5657",
+        "grade":"B",
+        "credits":8
+
+        } ]          
+},
+{
+    "semester":4,
+    "Sub_details": [ {
+        "course_code":"XC5658",
+        "grade":"O",
+        "credits":10  
+        },
+        {
+        "course_code":"XC5657",
+        "grade":"B",
+        "credits":8
+
+        } ]          
+}]
+
+}  ]
+

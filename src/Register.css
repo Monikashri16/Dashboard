@@ -15,5 +15,7 @@
 }
 
 body{
-    background: url(./src/assets/background.jpg)
+    background: url(./src/assets/image.jpg);
+    background-size: 1500px 1000px;
+    background-repeat: no-repeat;
 }

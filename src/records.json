@@ -117,5 +117,65 @@
         } ]          
 }]
 
-}  ]
+},
+{
+    "roll_no": 2021239023,
+    "semesters" :[ {
+        "semester":1,
+        "Sub_details": [ {
+            "course_code":"XC5051",
+            "grade":"O",
+            "credits":4 
+            },
+            {
+            "course_code":"XC5152",
+            "grade":"B",
+            "credits":3
+
+            } ]          
+            },
+    {
+    "semester":2,
+    "Sub_details": [ {
+        "course_code":"XT5051",
+        "grade":"A+",
+        "credits":4  
+        },
+        {
+        "course_code":"XT5152",
+        "grade":"C",
+        "credits":1
+
+        } ]          
+},
+{
+    "semester":3,
+    "Sub_details": [ {
+        "course_code":"XT5253",
+        "grade":"O",
+        "credits":4  
+        },
+        {
+        "course_code":"XT5354",
+        "grade":"RA",
+        "credits":0
+
+        } ]          
+},
+{
+    "semester":4,
+    "Sub_details": [ {
+        "course_code":"XC5253",
+        "grade":"A",
+        "credits":4  
+        },
+        {
+        "course_code":"XC5354",
+        "grade":"B",
+        "credits":3
+
+        } ]          
+}]
+
+}   ]
 

@@ -1,3 +1,5 @@
 .body{
-    background: url(./src/assets/background.jpg);
+    background: url(./src/assets/image.jpg);
+    background-size: 100px 800px;
+    background-repeat: no-repeat;
 }

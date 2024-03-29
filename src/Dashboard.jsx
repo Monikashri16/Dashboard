@@ -2,6 +2,7 @@
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
 import record from './record.json'
+import './Dashboard.css'
 
 const Dashboard = ({ data }) => {
   // Extracting course codes and their corresponding credits
@@ -34,7 +35,7 @@ const Dashboard = ({ data }) => {
   return (
     <div>
       <h2>Student Grades Bar Chart</h2>
-      <div style={{ height: '400px', width: '600px' }}>
+      <div className= "barchart" style={{ height: '400px', width: '600px' }}>
         <Bar
           data={record}
           options={{
